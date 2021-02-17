@@ -11,3 +11,5 @@ td, th {border: solid 1px ;
              #60b1bc 10px,
             #60b1bc 20px
           );padding-left: 15px;padding-bottom: 15px;padding-right: 15px;padding-top: 15px;}
+          .ARCHIDAMUS:hover{color:gold;text-shadow: greenyellow;}
+          .CAMILLO:hover{color:darkslateblue; text-shadow: firebrick;}
