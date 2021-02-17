@@ -2,3 +2,12 @@
 .hover {background-color: burlywood;}
 .ARCHIDAMUS { color:darkblue;font-family:'Times New Roman', Times, serif;size: 16x;background-color: darkgoldenrod}
 .CAMILLO  { color:darkmagenta;font-family:'Times New Roman', Times, serif;size: 16x;background-color:seagreen}
+table { border-style:groove;border-color:darkviolet;border-collapse: separate;margin-top: 10px;margin-bottom: 10px;}
+td, th {border: solid 1px ;
+        text-align: center;background: repeating-linear-gradient(
+            45deg,
+            #60b1bc,
+             #60b1bc 10px,
+             #60b1bc 10px,
+            #60b1bc 20px
+          );padding-left: 15px;padding-bottom: 15px;padding-right: 15px;padding-top: 15px;}
