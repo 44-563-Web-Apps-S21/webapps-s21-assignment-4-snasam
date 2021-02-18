@@ -11,21 +11,27 @@ td, th {border: solid 1px ;
              #60b1bc 10px,
             #60b1bc 20px
           );padding-left: 15px;padding-bottom: 15px;padding-right: 15px;padding-top: 15px;}
+
           .ARCHIDAMUS:hover{color:gold;text-shadow: greenyellow;}
           .CAMILLO:hover{color:darkslateblue; text-shadow: firebrick;}
 
-          ul.navbar-horizontal {
-            /* remove these */
+          ul{
             list-style-type: none;
-            margin: 10;
-            padding: 10;
-            }
+            margin:0;
+            padding:0;
+            overflow: hidden;
+          }
 
-            ul.navbar-horizontal li {
-                float:left; /* line up horizontally */
-                color:#000;
-                background-color:purple
-                }
+          li{
+            float:left;
+            border:6px solid springgreen;
+          }
+
+          li a{
+            display: block;
+            padding: 10px;
+            background-color: violet;
+          }
 
 
 
